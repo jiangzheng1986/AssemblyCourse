@@ -1,0 +1,44 @@
+数据放入单独段
+
+
+segment
+
+段
+
+8088cpu
+
+IBM PC
+
+寄存器16位 65536字节  64K
+内存寻址空间 1M   20位
+
+A 16
+B 16
+B * 65536 + A
+
+4G
+
+B * 16 + A
+
+(B << 4) + A
+
+A  IP
+B  CS
+
+ADDR = (CS << 4) + IP
+
+
+unsinged short IP;
+unsigned short CS;
+
+unsigned char memory[1024 * 1024];
+
+
+unsigned short DS;
+
+(DS << 4) + 0000
+
+b800:0000
+
+64根地址总线
+64根数据总线

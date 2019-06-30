@@ -1,0 +1,15 @@
+call func
+
+=>
+
+push ip
+mov ip, func
+
+
+
+
+ret
+
+=>
+
+pop ip

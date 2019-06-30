@@ -1,0 +1,39 @@
+bl
+bh
+
+cl
+ch
+
+dl
+dh
+
+and
+shr
+inc
+
+
+
+
+and bl, 0fh
+
+=>
+
+bl = bl & 0x0f;
+
+
+
+
+shr bl, cl
+
+=>
+
+bl = bl << cl;
+
+
+
+inc display_char_col
+
+=>
+
+display_char_col++;
+

@@ -1,0 +1,18 @@
+
+mov ax, [bx]
+
+
+=>
+
+
+ax = memory[(ds << 4) + bx]
+
+
+
+mov bx, offset var_a
+
+
+=>
+
+
+bx = &var_a;

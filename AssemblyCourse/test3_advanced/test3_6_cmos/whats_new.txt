@@ -1,0 +1,12 @@
+cmos地址端口  70h
+
+cmos数据端口  71h
+
+out
+
+in
+
+unsigned char ports[65536];
+
+ports[70h] = 08h
+ax = ports[71h]

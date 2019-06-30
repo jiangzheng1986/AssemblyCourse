@@ -1,0 +1,44 @@
+mov ax, 1
+mov bx, 2
+
+push ip
+push ax
+
+...
+
+pop ax
+pop ip
+
+add ax, bx
+
+
+
+
+
+
+中断向量表
+memory[0 - 1024]
+
+4字节 func cs:ip   	0号中断向量
+4字节 func cs:ip	1号中断向量
+4字节 func cs:ip
+4字节 func cs:ip
+4字节 func cs:ip
+4字节 func cs:ip
+4字节 func cs:ip
+4字节 func cs:ip
+4字节 func cs:ip	8号中断向量
+4字节 func cs:ip	9号中断向量
+4字节 func cs:ip
+4字节 func cs:ip
+4字节 func cs:ip
+4字节 func cs:ip
+...
+4字节 func cs:ip	255号向量
+
+
+内存开头的4 * 256个字节
+
+
+
+时钟中断: 8号

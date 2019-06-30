@@ -1,0 +1,25 @@
+debug
+mov
+add
+
+
+a = assembly
+r = register
+t = step
+
+mov = move
+
+
+
+mov ax,1
+mov bx,2
+add ax, bx
+
+=>
+
+unsigned short ax;
+unsigned short bx;
+
+ax = 1;
+bx = 2;
+ax = ax + bx;

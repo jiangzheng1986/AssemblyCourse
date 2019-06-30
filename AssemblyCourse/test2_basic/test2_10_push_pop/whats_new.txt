@@ -1,0 +1,16 @@
+ss = stack segment
+sp = stack pointer
+
+push ax
+
+unsigned short sp;
+unsigned short ss;
+
+sp -= 2
+[ss:sp] = ax
+
+
+pop ax
+
+ax = [ss:sp]
+sp += 2

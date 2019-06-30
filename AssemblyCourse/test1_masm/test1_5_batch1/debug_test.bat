@@ -1,0 +1,2 @@
+debug test.exe
+cmd

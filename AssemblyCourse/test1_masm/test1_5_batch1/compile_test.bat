@@ -1,0 +1,2 @@
+masm test.asm
+cmd

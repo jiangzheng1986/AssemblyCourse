@@ -1,0 +1,21 @@
+jmp
+
+
+
+jmp label_1
+
+=>
+
+unsigned short ip;
+
+ip = label_1;
+
+
+unsigned char memory[1024 * 1024];
+
+std::vector<>
+
+
+d = dump
+
+B8 01 00 BB 02 00 03 C3 EB F6

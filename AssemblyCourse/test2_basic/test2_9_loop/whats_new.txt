@@ -1,0 +1,34 @@
+ax = 1;
+bx = 2;
+int i;
+for(i = 3; i >= 0; i--)
+{
+	ax += bx;
+}
+
+
+cx = 3;
+
+ax += bx;
+
+
+
+loop
+
+
+
+
+loop label_1
+
+
+=>
+
+
+unsigned short cx;
+
+cx--;
+
+if ( cx > 0 )
+{
+	ip = label_1;
+}

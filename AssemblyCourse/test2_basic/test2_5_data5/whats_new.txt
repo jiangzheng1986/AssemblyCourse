@@ -1,0 +1,13 @@
+ds
+
+
+
+
+mov ax, var_a
+
+
+=>
+
+unsinged short ds;
+
+ax = memory[(ds << 4) + offset var_a]
